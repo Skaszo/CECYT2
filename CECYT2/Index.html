@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Instituto Politécnico Nacional</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
@@ -61,7 +63,9 @@
         </div>
     </nav>
 </div>
+<!-- Título -->
     <div class="secondary-header"><span> Instituto Politécnico Nacional </span></div>
+    <!-- Carrusel -->
     <section class="responsive-bg" style="padding-top:0px;">
         <div class="carousel slide text-center text-primary-emphasis placeholder bg-primary-subtle bg-opacity-25 focus-ring d-inline border rounded-0" data-bs-ride="true" data-bs-theme="light" id="carousel-1">
             <div class="carousel-inner">
@@ -81,24 +85,40 @@
             <div><a class="carousel-control-prev" href="#carousel-2" role="button" data-bs-slide="prev"><span></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-2" role="button" data-bs-slide="next"><span class="m-auto"></span><span class="visually-hidden">Next</span></a></div>
             <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-2" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="2"></button></div>
         </div>
+        <!-- Contenido -->
         <div class="container text-center" style="margin-top:29px;">
             <h2>Bienvenidos</h2>
             <p>Calidad educativa, fomentando el desarrollo integral de nuestros estudiantes.</p>
             <div class="row"></div>
         </div>
     </section>
-    <section class="responsive-bg">
-        <div class="container">
-            <h2 class="text-center">Actividad Politécnica</h2>
-            <div class="publication-section">
-                <div class="publication-card"><img src="example1.png" alt="Publicación 1">
-                    <h4>Innovación Educativa</h4>
+
+    <!-- Actividades -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Actividad Politécnica</h2>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="example1.png" class="card-img-top" alt="Publicación 1" style="height: 150px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Innovación Educativa</h5>
+                    </div>
                 </div>
-                <div class="publication-card"><img src="example2.png" alt="Publicación 2">
-                    <h4>Conexus</h4>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="example2.png" class="card-img-top" alt="Publicación 2" style="height: 150px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Conexus</h5>
+                    </div>
                 </div>
-                <div class="publication-card"><img src="example3.png" alt="Publicación 3" width="111" height="26">
-                    <h4>Gaceta Politécnica</h4>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="example3.png" class="card-img-top" alt="Publicación 3" style="height: 150px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Gaceta Politécnica</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,6 +127,7 @@
         <div class="container">
             <h2 class="text-center">Estadísticas</h2>
             <div class="stats-section">
+                
                 <div class="stat">
                     <h3>83</h3>
                     <p>Carreras</p>
@@ -128,10 +149,10 @@
     </section>
 		<div class="footer-gray">
             <div class="footer-section">
-                <div class="footer-column">
+                <div class="footer-column-s">
                    <img src="assets/img/pleca-educacion-footer.png" alt="Logo SEP">
                 </div>
-                <div class="footer-column">
+                <div class="footer-column-l">
 				 <p>INSTITUTO POLITÉCNICO NACIONAL</p>
                     <p>D.R. Instituto Politécnico Nacional (IPN). Av. Luis Enrique Erro S/N, Unidad Profesional Adolfo López Mateos, Zacatenco, Alcaldía Gustavo A. Madero, C.P. 07738, Ciudad de México. Conmutador: 55 57 29 60 00 / 55 57 29 63 00.</p>
                     <p class="mb-0">Esta página es una obra intelectual protegida por la Ley Federal del Derecho de Autor, puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica; su uso para otros fines, requiere autorización previa y por escrito de la Dirección General del Instituto.</p>
@@ -156,19 +177,20 @@
       </ul>
     </div>
     <div class="footer-column2">
-      <h5>Contacto</h5>
-      <p>Teléfono: +52 55 1234 5678</p>
-      <p>Email: contacto@gob.mx</p>
+      <h5>¿Qué es gob.mx?</h5>
+      <p>Es el portal único de trámites, información y participación ciudadana. <br><a href="https://www.gob.mx/que-es-gobmx">Leer más</a></p><ul><li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li><li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li><li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li><li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li><li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li><li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li><li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li></ul>
     </div>
-    <div class="footer-column2 social-icons">
+    <div class="footer-column2">
       <h5>Síguenos</h5>
-      <a href="#" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-      <a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-      <a href="#" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-      <a href="#" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
+      <div class="social-icons">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+  <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
     </div>
   </div>
 </footer>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

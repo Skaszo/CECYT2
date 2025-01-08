@@ -136,7 +136,7 @@ footer .footer-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 footer .footer-content .footer-section {
     max-width: 1200px;
@@ -261,31 +261,41 @@ footer img {
     align-items: center;
 	background-color: #333;
 	color: #fff;
+  padding: 30px;
         }
 
-        .footer-column {
-            flex: 1;
-            margin: 10px;
-            min-width: 576px;
+        .footer-column-l {
+          flex: 0 0 auto;
+          width: 66.66666667%;
         }
+        .footer-column-s{
+          text-align: center !important;
+          flex: 0 0 auto;
+    width: 33.33333333%;
+      }
+        .footer-column-s img {
+                  max-width: 300px;
+      }
 
-.footer-column p {
+.footer-column-l p {
     color: #CCC;
     font-weight: 400;
     font-size: .8rem;
     padding: 5px 0;
+    font-family: montserrat;
+    text-align: justify;
 }
-   .footer-column a {
+   .footer-column-l a {
     color: #FFF;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     text-decoration: none;
    }
-.footer-column ul {
+.footer-column-l ul {
 	    margin: 0 0 60px;
     padding: 0;
 }
-.footer-column ul li {
+.footer-column-l ul li {
     list-style-type: none;
     margin: 0 0 2px;
     padding: 0;
@@ -298,19 +308,21 @@ footer img {
 			background-color: #333;
 		}
 		.footer-column2 {
-  flex: 1;
-  min-width: 200px;
-  text-align: center;
+    flex: 1;
+  min-width: 25%;
+  text-align: left;
 }
 
 .footer-column2 img {
-  max-width: 150px;
+  max-width: 90%;
   height: auto;
 }
 
 .footer-column2 h5 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .footer-column2 ul {
@@ -332,22 +344,34 @@ footer img {
 .footer-column2 ul li a:hover {
   text-decoration: underline;
 }
-
-.footer-column2 p {
+.footer-column2 a {
+  color: #fff;
+  text-decoration: none;
   font-size: 0.9rem;
-  margin: 5px 0;
+}
+.footer-column2 p {
+  line-height: 136%;
+  letter-spacing: .04rem;
+  height: auto;
+  position: static;
+  color: #FFF;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
+  font-size: 14px;
+
 }
 
 .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 15px;
 }
 
 .social-icons a {
+  display: block;
   font-size: 1.5rem;
   color: #fff;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease; 
 }
 
 .social-icons a:hover {
