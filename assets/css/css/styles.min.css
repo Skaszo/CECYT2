@@ -308,7 +308,7 @@ footer img {
 			background-color: #333;
 		}
 		.footer-column2 {
-    flex: 1;
+    flex: 2;
   min-width: 25%;
   text-align: left;
 }
@@ -377,3 +377,7 @@ footer img {
 .social-icons a:hover {
   color: #ffd700;
 }
+.col-md-12 {
+  flex: 0 0 auto;
+  width: 100%;}
+ 
